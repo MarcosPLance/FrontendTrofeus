@@ -1,0 +1,17 @@
+.home-container-list{
+    display: grid;
+    grid-template-columns: auto 2fr;
+    gap: 10px;
+}
+
+.float-button{
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    background-color: yellow;
+}

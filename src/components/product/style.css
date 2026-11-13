@@ -1,0 +1,26 @@
+.container-product{
+    width: 400px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #f9ca24;
+    border-radius: 8px;
+    padding: 16px;
+    cursor: pointer;
+    transition:all 0.3s ease-in-out;
+}
+
+.container-product:hover{
+    transform: scale(1.1);
+}
+
+.container-product h2{
+    font-size: 1rem;
+}
+
+.container-product .content-img{
+    display: flex;
+    justify-content: center;
+}
+
+.contianer-product img{
+    width: 140px;
+}
